@@ -147,15 +147,7 @@ ol.javascript.runnable.code:hover {
 	color: #FFFFFF;
 }
 
-#copyright {
-	margin-top: 2em;
-	padding-top: 0.5em;
-	border-top: 1px solid #CCCCCC;
-	font-size: 0.9em;
-	text-align: right;
-	color: #777777;
+a.theone {
+        border: 0.15em dotted red;
 }
 
-#copyright p {
-	margin: 0;
-}
