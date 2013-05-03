@@ -16,13 +16,6 @@
             };
             //<![CDATA[
 		$(function () {
-                    $(".runnable")
-                        .attr({ title: "Click to run this script" })
-                        .css({ cursor: "pointer"})
-                        .click(function () {
-                                // here be eval!
-                                eval($(this).text());
-                                });
                     var input = $('input');
                     var searchable = $('a');
                     input.hide();
